@@ -1,8 +1,3 @@
-import numpy as np
-import math
-import random
-import torch
-
 __all__ = ['search_conv']
 
 def search_conv(net):

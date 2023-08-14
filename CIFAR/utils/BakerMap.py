@@ -3,7 +3,7 @@ import math
 import random
 import torch
 from . import prepare
-__all__ = ['EncryptModel','DecryptModel']
+__all__ = ['EncryptModel','DecryptModel','baker_encryption','baker_decryption']
 
 def factor(nb,na):
     factors = []
@@ -138,7 +138,7 @@ def baker_encryption(before,nlist):
 
     return new
 
-def backer_decryption(before,nlist):
+def baker_decryption(before,nlist):
 
     if before.shape[1]==3:
         new = torch.zeros_like(before)

@@ -14,7 +14,6 @@ import torchvision.datasets as datasets
 import torchvision.transforms as transforms
 
 from models import *
-from tools import *
 from utils import *
 
 parser = argparse.ArgumentParser(description='PyTorch CIFAR-10')
