@@ -44,7 +44,6 @@ assert args.model == 'resnet' or args.model == 'vgg', 'model structure can only 
 
 # Use CUDA
 os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu_id
-use_cuda = torch.cuda.is_available()
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 

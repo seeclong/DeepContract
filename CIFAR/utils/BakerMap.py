@@ -246,7 +246,7 @@ def DecryptModel(net, key):
     dict = net.state_dict()
     for name, nlist in key:
         # print(name,nlist)
-        dict[name] = backer_decryption(dict[name], nlist)
+        dict[name] = baker_decryption(dict[name], nlist)
     net.load_state_dict(dict)
     return net 
 
