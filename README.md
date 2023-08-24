@@ -1,6 +1,6 @@
 # DeepContract
 
-This is the official implementation of our paper **DeepContract: Controllable Authorization of Deep Learning Models**, accepted by the Annual Computer Security Applications Conference 2023 (ACSAC'23). This research project is developed based on Python 3 and Pytorch.
+This is the partial implementation of our paper **DeepContract: Controllable Authorization of Deep Learning Models**, accepted by the Annual Computer Security Applications Conference 2023 (ACSAC'23). This research project is developed based on Python 3 and Pytorch.
 
 
 ## Requirements
